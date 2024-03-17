@@ -98,13 +98,13 @@ npm run start -- --host 0.0.0.0
 ## docusaurus.config.js
 
 ```
-  title: 'dtest',                   // Or else
+  title: '241saurus',               // Or else
   tagline: 'This is the Way!',      // Or else
   favicon: 'img/favicon.ico',       // Or else
-  url: 'https://abusass.github.io', // Or else
-  baseUrl: '/dtest/',               // Or else
-  organizationName: 'abusass',      // (Usually your GitHub org/user name)
-  projectName: 'dtest',             // (Usually your repo name)
+  url: 'https://cbkadal.github.io', // Or else
+  baseUrl: '/241saurus/',           // Or else
+  organizationName: 'cbkadal',      // (Usually your GitHub org/user name)
+  projectName: '241saurus',         // (Usually your repo name)
   trailingSlash: true,              // "true/" or "false"
 
 ```
