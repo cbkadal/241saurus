@@ -6,7 +6,7 @@
 
 [&#x213C;](#)<br id="idx001"><br>
 ## .gitignore
-* See: https://raw.githubusercontent.com/abusass/dtest/master/.gitignore
+* See: https://raw.githubusercontent.com/cbkadal/241saurus/master/.gitignore
 
 [&#x213C;](#)<br id="idx001"><br>
 ## Debian Packages (ROOT)
@@ -127,7 +127,7 @@ yarn deploy
 [&#x213C;](#)<br id="idxXXX"><br>
 
 <pre><strong>
-REV00: Sun 17 Mar 2024 22:00
+REV00: Sun 17 Mar 2024 22:30
 START: Sun 17 Mar 2024 14:00
 </strong></pre>
 
