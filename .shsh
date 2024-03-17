@@ -1,0 +1,6 @@
+#!/bin/bash
+# Thu 08 Jul 2021 10:00
+
+echo -n "XYZZY.."
+echo ". Nothing happens..."
+
