@@ -1,8 +1,11 @@
 # DocuSaurus
 
 [&#x213C;](#idxXXX)<br id="idx000"><br>
-## NAT
+## Network Address Translation (NAT) Settings
+
 * Map 127.0.0.1:5001 (Host) --- 10.0.2.15:3000 (Guest)
+
+<br><img src="images/VBOX-NAT.jpg"  width="960"><br>
 
 [&#x213C;](#)<br id="idx001"><br>
 ## .gitignore
@@ -127,7 +130,7 @@ yarn deploy
 [&#x213C;](#)<br id="idxXXX"><br>
 
 <pre><strong>
-REV01: Wed 27 Mar 2024 07:00
+REV01: Wed 27 Mar 2024 08:00
 START: Sun 17 Mar 2024 14:00
 </strong></pre>
 
