@@ -1,7 +1,7 @@
 ---
 slug: first-blog-post
 title: First Blog Post
-authors: [abuass, cbkadal, demosuremo, dullatip, kutakada, vrtass]
+authors: [kutakada]
 tags: [hola, docusaurus]
 ---
 

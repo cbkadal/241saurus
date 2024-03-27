@@ -5,8 +5,8 @@ abuass:
   image_url: https://github.com/abuass.png
 
 cbkadal:
-  name: C. BinKadal
-  title: Sendirian Berhad
+  name: Cicak BinKadal
+  title: Sdn, Bhd.
   url: https://github.com/cbkadal
   image_url: https://github.com/cbkadal.png
 
@@ -22,15 +22,21 @@ dullatip:
   url: https://github.com/dullatip
   image_url: https://github.com/dullatip.png
 
+jwal1260:
+  name: Johnnie Walker
+  title: Green Label
+  url: https://github.com/jwal1260
+  image_url: https://github.com/jwal1260.png
+
 kutakada:
   name: K.K. Kutakada
-  title: Janitor
+  title: Ronin
   url: https://github.com/kutakada
   image_url: https://github.com/kutakada.png
 
 vrtass:
   name: Virtual Ass
-  title: Janitor
+  title: Beast of Burden
   url: https://github.com/vrtass
   image_url: https://github.com/vrtass.png
 

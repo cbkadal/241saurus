@@ -1,6 +1,6 @@
 ---
-slug: welcome
-title: Welcome
+slug: pertamax
+title: Pertamax
 authors: [cbkadal, demosuremo, dullatip, jwal1260, kutakada, vrtass]
 tags: [facebook, hello, docusaurus]
 ---

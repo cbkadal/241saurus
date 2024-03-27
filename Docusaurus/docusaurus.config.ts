@@ -3,14 +3,14 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: '241saurus',               // Or else
-  tagline: 'This is the Way!',      // Or else
-  favicon: 'img/favicon.ico',       // Or else
-  url: 'https://cbkadal.github.io', // Or else
-  baseUrl: '/241saurus/',           // Or else
-  organizationName: 'cbkadal',      // (Usually your GitHub org/user name)
-  projectName: '241saurus',         // (Usually your repo name)
-  trailingSlash: true,              // "true/" or "false"
+  title:            '241saurus',                   // Or else
+  tagline:          'May the fork() be with you!', // Or else
+  favicon:          'img/favicon.ico',             // Or else
+  url:              'https://cbkadal.github.io',   // Or else
+  baseUrl:          '/241saurus/',                 // Or else
+  organizationName: 'cbkadal',                     // (Usually your GitHub org/user name)
+  projectName:      '241saurus',                   // (Usually your repo name)
+  trailingSlash:    true,                          // "true" or "false"
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -31,15 +31,15 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/cbkadal/241saurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/cbkadal/241saurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/cbkadal/241saurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/cbkadal/241saurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -52,10 +52,10 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'HOME',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Logo',
+        src: 'img/cbkadal.jpg',
       },
       items: [
         {
