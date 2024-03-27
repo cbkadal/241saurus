@@ -4,6 +4,7 @@
 ## Table of Content (Toc)
 * [Network Address Translation (NAT) Settings](#idx001)
 * [File .gitignore](#idx002)
+* [Debian Packages](#idx003)
 
 [&#x213C;](#)<br id="idx001">
 ## Network Address Translation (NAT) Settings
@@ -23,11 +24,13 @@ On your VirtualBox, you must redirect/translate the local port 3000 to the host 
 [&#x213C;](#)<br id="idx002">
 ## File .gitignore
 
-Don't push node.js to GitHub. For that, set file .gitignore at
+Don't push the node.js files to GitHub! Copy from the following into your .gitignore file.
 https://raw.githubusercontent.com/cbkadal/241saurus/master/.gitignore
 
 [&#x213C;](#)<br id="idx003">
-## Debian Packages (ROOT)
+## Debian Packages
+
+Make sure the following Debian packages are present in your system. Install them with root privilege.
 
 ```
 export DEBS="
