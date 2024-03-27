@@ -3,24 +3,24 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title:            '241saurus',                   // Or else
-  tagline:          'May the fork() be with you!', // Or else
-  favicon:          'img/favicon.ico',             // Or else
-  url:              'https://cbkadal.github.io',   // Or else
-  baseUrl:          '/241saurus/',                 // Or else
-  organizationName: 'cbkadal',                     // (Usually your GitHub org/user name)
-  projectName:      '241saurus',                   // (Usually your repo name)
-  trailingSlash:    true,                          // "true" or "false"
+  title:                    '241saurus',                   // Or else
+  tagline:                  'May the fork() be with you!', // Or else
+  favicon:                  'img/favicon.ico',             // Or else
+  url:                      'https://cbkadal.github.io',   // Or else
+  baseUrl:                  '/241saurus/',                 // Or else
+  organizationName:         'cbkadal',                     // (Usually your GitHub org/user name)
+  projectName:              '241saurus',                   // (Usually your repo name)
+  trailingSlash:            true,                          // "true" or "false"
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks:            'throw',
+  onBrokenMarkdownLinks:    'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales:      ['en'],
   },
 
   presets: [
@@ -59,16 +59,20 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
+          label:     'Tutorial',
           sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
+          position:  'left',
+          type:      'docSidebar',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/cbkadal/241saurus',
-          label: 'GitHub',
-          position: 'right',
+          label:     'Blog', 
+          position:  'left',
+          to:        '/blog', 
+        },
+        {
+          label:     'GitHub',
+          position:  'right',
+          href:      'https://github.com/cbkadal/241saurus',
         },
       ],
     },
@@ -110,7 +114,7 @@ const config: Config = {
       copyright: `Copyright © ${new Date().getFullYear()} BinKadal, Sdn, Bhd.`,
     },
     prism: {
-      theme: prismThemes.github,
+      theme:     prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
