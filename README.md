@@ -5,6 +5,7 @@
 * [Network Address Translation (NAT) Settings](#idx001)
 * [File .gitignore](#idx002)
 * [Debian Packages](#idx003)
+* [Removed Packages](idx004)
 
 [&#x213C;](#)<br id="idx001">
 ## Network Address Translation (NAT) Settings
@@ -30,9 +31,10 @@ https://raw.githubusercontent.com/cbkadal/241saurus/master/.gitignore
 [&#x213C;](#)<br id="idx003">
 ## Debian Packages
 
-Make sure the following Debian packages are present in your system. Install them with root privilege.
+Make sure the following Debian packages are present in your system.
 
 ```
+# ROOT privilege.
 export DEBS="
 aptitude
 git
@@ -44,13 +46,14 @@ time apt-get install $DEBS -y
 
 ```
 
-[&#x213C;](#)<br id="idx002"><br>
+[&#x213C;](#)<br id="idx004">
 ## Removed Packages (ROOT)
-* CMDTEST (yarn) for Jekyll
+Remove the current "yarn" version used by the Jekyll installation. It will be replaced with a newer one.
+That old "yarn" is in the "cmdtest" package.
 
 ```
+# ROOT privilege.
 aptitude purge cmdtest
-
 
 ```
 
