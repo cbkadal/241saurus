@@ -5,8 +5,7 @@
 ## Table of Content (Toc)
 * [Network Address Translation (NAT) Settings](#idx001)
 
-[&#x213C;](#)<br id="idx001"><br>
-
+[&#x213C;](#)<br id="idx001">
 ## Network Address Translation (NAT) Settings
 
 Docusaurus is using local port 3000. 
