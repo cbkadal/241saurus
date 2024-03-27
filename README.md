@@ -6,6 +6,8 @@
 * [File .gitignore](#idx002)
 * [Debian Packages](#idx003)
 * [Removed Packages](#idx004)
+* [Install NVM/node.js](#idx005)
+* [Remove Old Node.js](#idx006)
 
 [&#x213C;](#)<br id="idx001">
 ## Network Address Translation (NAT) Settings
@@ -47,7 +49,7 @@ time apt-get install $DEBS -y
 ```
 
 [&#x213C;](#)<br id="idx004">
-## Removed Packages (ROOT)
+## Removed Packages
 Remove the current "yarn" version used by the Jekyll installation. It will be replaced with a newer one.
 That old "yarn" is in the "cmdtest" package.
 
@@ -57,39 +59,63 @@ aptitude purge cmdtest
 
 ```
 
-[&#x213C;](#)<br id="idx003"><br>
-## Install NVM/node.js (USER)
+[&#x213C;](#)<br id="idx005">
+## Install NVM/node.js
+Docusaurus needs a huge JavaScript runtime environment package called "node.js." 
+Check https://github.com/nvm-sh/nvm/releases for the latest NVM package release. 
+Currently, it is version 0.39.7.
 
 ```
-### For nvm releases, check:
-### https://github.com/nvm-sh/nvm/releases
-
+# USER privilege.
 NVM_RELEASE="v0.39.7"
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/$NVM_RELEASE/install.sh | bash
 
 ```
 
-[&#x213C;](#)<br id="idx004"><br>
-### Check Node.js Version (USER)
+[&#x213C;](#)<br id="idx006">
+### Check Node.js Version
+
+Check for the latest LTS (Long-Term Support) version.
 
 ```
+# USER privilege.
 nvm ls-remote
-## E.g. v20.11.1   (Latest LTS: Iron)
 
 ```
+
+For example,
+* the latest LTS version (NEW_NODE_VERSION) is "v20.12.0"
+* the installed version is (OLD_NODE_VERSION) "v20.11.1"
+
 
 [&#x213C;](#)<br id="idx005"><br>
-## Install and Check Version (USER)
+### Install Node.js
+
+Set NEW_NODE_VERSION
 
 ```
-NODE_VERSION="v20.11.1"
-nvm install $NODE_VERSION
-sleep 2
+# USER privilege.
+NEW_NODE_VERSION="v20.12.0"
+nvm install $NEW_NODE_VERSION
+sleep 1
 node -v
 
 ```
 
 [&#x213C;](#)<br id="idx006"><br>
+### Remove Old Node.js (if exists)
+
+```
+# USER privilege.
+OLD_NODE_VERSION="v20.11.1"
+nvm uninstall $OLD_NODE_VERSION
+sleep 1
+rm -rfv $HOME/.nvm/versions/node/$OLD_NODE_VERSION/
+node -v
+
+```
+
+[&#x213C;](#)<br id="idx007"><br>
 ## YARN (USER)
 
 ```
@@ -151,7 +177,7 @@ yarn deploy
 [&#x213C;](#)<br id="idxXXX"><br>
 
 <pre><strong>
-REV01: Wed 27 Mar 2024 08:00
+REV01: Wed 27 Mar 2024 10:00
 START: Sun 17 Mar 2024 14:00
 </strong></pre>
 
