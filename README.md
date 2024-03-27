@@ -11,6 +11,11 @@
   * [Install Node.js](#idx007)
   * [Remove Old Node.js](#idx008)
 * [YARN](#idx009)
+* [Install Docusaurus](#idx010)
+* [Start Docusaurus](#idx011)
+* [docusaurus.config.js](#idx012)
+* [Deploy To GitHub](#idx013)
+* [More Links](#idx013)
 
 [&#x213C;](#)<br id="idx001">
 ## Network Address Translation (NAT) Settings
@@ -86,7 +91,7 @@ nvm ls-remote
 
 ```
 
-For example,
+You might have previously installed node.js before. For example,
 * the latest LTS version (NEW_NODE_VERSION) is "v20.12.0"
 * the installed version (OLD_NODE_VERSION) is "v20.11.1"
 
@@ -122,9 +127,10 @@ node -v
 ```
 
 [&#x213C;](#)<br id="idx009">
-## YARN (USER)
+## Install YARN 
 
 ```
+# USER privilege.
 npm install -g yarn
 sleep 2
 yarn --version
@@ -133,25 +139,32 @@ yarn --version
 
 ```
 
-[&#x213C;](#)<br id="idx007"><br>
-## Docusaurus (USER) 
+[&#x213C;](#)<br id="idx010">
+## Install Docusaurus
 
 ```
+# USER privilege.
 npx create-docusaurus@latest Docusaurus classic --typescript
 
 ```
 
-[&#x213C;](#)<br id="idx008"><br>
-## Start Docusaurus (USER)
+[&#x213C;](#)<br id="idx011">
+## Start Docusaurus
+
+Test if Docusaurus shows on port 5001 (host).
 
 ```
+# USER privilege.
 cd Docusaurus
 npm run start -- --host 0.0.0.0
 
 ```
 
-[&#x213C;](#)<br id="idx009"><br>
-## docusaurus.config.js
+[&#x213C;](#)<br id="idx012">
+## File docusaurus.config.js
+
+Goto (cd) folder "Docusaurus" and edit file "docusaurus.config.js".
+Remember, you are not "cbkadal".
 
 ```
   title: '241saurus',               // Or else
@@ -165,17 +178,21 @@ npm run start -- --host 0.0.0.0
 
 ```
 
-[&#x213C;](#)<br id="idx009"><br>
+[&#x213C;](#)<br id="idx013">
 ## Deploy To GitHub
 
+Replace "GIT_USER" because you are not "cbkadal"!
+
 ```
+# USER privilege.
 export GIT_USER="cbkadal"
 export USE_SSH="true"
 yarn deploy
 
 ```
 
-[&#x213C;](#)<br id="idx009"><br>
+[&#x213C;](#)<br id="idx014">
+## More Links
 
 * <https://docusaurus.io/docs/>
 * <https://cbkadal.github.io/231saurus/docs/AP01/02/>
@@ -183,7 +200,7 @@ yarn deploy
 [&#x213C;](#)<br id="idxXXX"><br>
 
 <pre><strong>
-REV01: Wed 27 Mar 2024 10:00
+REV01: Wed 27 Mar 2024 11:00
 START: Sun 17 Mar 2024 14:00
 </strong></pre>
 
