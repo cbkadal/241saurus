@@ -5,7 +5,7 @@
 * [Network Address Translation (NAT) Settings](#idx001)
 * [File .gitignore](#idx002)
 * [Debian Packages](#idx003)
-* [Removed Packages](idx004)
+* [Removed Packages](#idx004)
 
 [&#x213C;](#)<br id="idx001">
 ## Network Address Translation (NAT) Settings
