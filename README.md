@@ -7,7 +7,10 @@
 * [Debian Packages](#idx003)
 * [Removed Packages](#idx004)
 * [Install NVM/node.js](#idx005)
-* [Remove Old Node.js](#idx006)
+  * [Remove Old Node.js](#idx006)
+  * [Install Node.js](#idx007)
+  * [Remove Old Node.js](#idx008)
+* [YARN](#idx009)
 
 [&#x213C;](#)<br id="idx001">
 ## Network Address Translation (NAT) Settings
@@ -88,7 +91,7 @@ For example,
 * the installed version (OLD_NODE_VERSION) is "v20.11.1"
 
 
-[&#x213C;](#)<br id="idx005"><br>
+[&#x213C;](#)<br id="idx007">
 ### Install Node.js
 
 Set NEW_NODE_VERSION
@@ -103,8 +106,10 @@ node -v
 
 ```
 
-[&#x213C;](#)<br id="idx006"><br>
+[&#x213C;](#)<br id="idx008">
 ### Remove Old Node.js (if exists)
+
+Remove the old "node.js" if it exists.
 
 ```
 # USER privilege.
@@ -116,7 +121,7 @@ node -v
 
 ```
 
-[&#x213C;](#)<br id="idx007"><br>
+[&#x213C;](#)<br id="idx009">
 ## YARN (USER)
 
 ```
