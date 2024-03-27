@@ -1,7 +1,6 @@
 # 241saurus by BinKadal, Sdn, Bhd.
 
-[&#x213C;](#idxXXX)<br id="idx000"><br>
-
+[&#x213C;](#idxXXX)<br id="idx000">
 ## Table of Content (Toc)
 * [Network Address Translation (NAT) Settings](#idx001)
 
