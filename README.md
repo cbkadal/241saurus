@@ -85,7 +85,7 @@ nvm ls-remote
 
 For example,
 * the latest LTS version (NEW_NODE_VERSION) is "v20.12.0"
-* the installed version is (OLD_NODE_VERSION) "v20.11.1"
+* the installed version (OLD_NODE_VERSION) is "v20.11.1"
 
 
 [&#x213C;](#)<br id="idx005"><br>
