@@ -15,7 +15,8 @@
 * [docusaurus.config.js](#idx011)
 * [Test Docusaurus (local)](#idx012)
 * [Deploy To GitHub](#idx013)
-* [More Links](#idx014)
+* [ETC](#idx014)
+* [More Links](#idx015)
 
 [&#x213C;](#)<br id="idx001">
 ## Network Address Translation (NAT) Settings
@@ -193,6 +194,37 @@ yarn deploy
 ```
 
 [&#x213C;](#)<br id="idx014">
+## ETC
+
+### Restore From GitHub
+
+```
+npm install
+
+```
+
+### Image Plugin
+
+```
+npm install --save @docusaurus/plugin-ideal-image
+
+```
+
+### Raw Loader
+
+```
+npm install --save raw-loader
+
+```
+
+### Fix
+
+```
+npm audit fix
+
+```
+
+[&#x213C;](#)<br id="idx015">
 ## More Links
 
 * <https://docusaurus.io/docs/>
@@ -201,7 +233,7 @@ yarn deploy
 [&#x213C;](#)<br id="idxXXX"><br>
 
 <pre><strong>
-REV01: Wed 27 Mar 2024 19:00
+REV01: Wed 27 Mar 2024 23:00
 START: Sun 17 Mar 2024 14:00
 </strong></pre>
 

@@ -111,7 +111,11 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} BinKadal, Sdn, Bhd.`,
+      copyright: `Copyright © 2023-2024 BinKadal, Sdn, Bhd. ---
+      REV29: Wed 27 Mar 2024 22:00
+      `,
+      // REV28: Tue 20 Jun 2023 09:30
+      // START: Sat 29 Apr 2023 13:00
     },
     prism: {
       theme:     prismThemes.github,
