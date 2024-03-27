@@ -1,13 +1,27 @@
 # DocuSaurus
 
 [&#x213C;](#idxXXX)<br id="idx000"><br>
+
+## Table of Content (Toc)
+* [Network Address Translation (NAT) Settings](#idx001)
+
+[&#x213C;](#)<br id="idx001"><br>
+
 ## Network Address Translation (NAT) Settings
 
-* Map 127.0.0.1:5001 (Host) --- 10.0.2.15:3000 (Guest)
+Docusaurus is using local port 3000. 
+You must redirect/translate the local port 3000 to the host port 5001.
+
+* VirtualBox Settings
+  * Network:Adapter1:
+    * Enable Network Adapter
+    * Attached to: NAT
+    * Port Forwarding:
+      * 127.0.0.1:5001 (Host) --- 10.0.2.15:3000 (Guest)
 
 <br><img src="images/VBOX-NAT.jpg"  width="960"><br>
 
-[&#x213C;](#)<br id="idx001"><br>
+[&#x213C;](#)<br id="idx002"><br>
 ## .gitignore
 * See: https://raw.githubusercontent.com/cbkadal/241saurus/master/.gitignore
 
