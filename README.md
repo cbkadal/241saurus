@@ -105,7 +105,7 @@ npm run start -- --host 0.0.0.0
   baseUrl: '/241saurus/',           // Or else
   organizationName: 'cbkadal',      // (Usually your GitHub org/user name)
   projectName: '241saurus',         // (Usually your repo name)
-  trailingSlash: true,              // "true/" or "false"
+  trailingSlash: true,              // "true" or "false"
 
 ```
 
@@ -127,7 +127,7 @@ yarn deploy
 [&#x213C;](#)<br id="idxXXX"><br>
 
 <pre><strong>
-REV00: Sun 17 Mar 2024 22:30
+REV01: Wed 27 Mar 2024 07:00
 START: Sun 17 Mar 2024 14:00
 </strong></pre>
 
