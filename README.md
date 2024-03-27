@@ -3,6 +3,7 @@
 [&#x213C;](#idxXXX)<br id="idx000">
 ## Table of Content (Toc)
 * [Network Address Translation (NAT) Settings](#idx001)
+* [File .gitignore](#idx002)
 
 [&#x213C;](#)<br id="idx001">
 ## Network Address Translation (NAT) Settings
@@ -19,7 +20,7 @@ On your VirtualBox, you must redirect/translate the local port 3000 to the host 
 
 <br><img src="images/VBOX-NAT.jpg"  width="960"><br>
 
-[&#x213C;](#)<br id="idx002"><br>
+[&#x213C;](#)<br id="idx002">
 ## File .gitignore
 
 Don't push node.js to GitHub. For that, set file .gitignore.
