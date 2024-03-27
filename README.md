@@ -12,10 +12,10 @@
   * [Remove Old Node.js](#idx008)
 * [YARN](#idx009)
 * [Install Docusaurus](#idx010)
-* [Start Docusaurus](#idx011)
-* [docusaurus.config.js](#idx012)
+* [docusaurus.config.js](#idx011)
+* [Test Docusaurus (local)](#idx012)
 * [Deploy To GitHub](#idx013)
-* [More Links](#idx013)
+* [More Links](#idx014)
 
 [&#x213C;](#)<br id="idx001">
 ## Network Address Translation (NAT) Settings
@@ -149,21 +149,9 @@ npx create-docusaurus@latest Docusaurus classic --typescript
 ```
 
 [&#x213C;](#)<br id="idx011">
-## Start Docusaurus
-
-Test if Docusaurus shows on port 5001 (host).
-
-```
-# USER privilege.
-cd Docusaurus
-npm run start -- --host 0.0.0.0
-
-```
-
-[&#x213C;](#)<br id="idx012">
 ## File docusaurus.config.js
 
-Goto (cd) folder "Docusaurus" and edit file "docusaurus.config.js".
+Goto (cd) folder "Docusaurus/" and edit file "docusaurus.config.js".
 Remember, you are not "cbkadal".
 
 ```
@@ -177,6 +165,19 @@ Remember, you are not "cbkadal".
   trailingSlash: true,              // "true" or "false"
 
 ```
+
+[&#x213C;](#)<br id="idx012">
+## Start Docusaurus (local)
+
+Test if Docusaurus shows on port 5001 (host).
+
+```
+# USER privilege.
+cd Docusaurus/
+npm run start -- --host 0.0.0.0
+
+```
+
 
 [&#x213C;](#)<br id="idx013">
 ## Deploy To GitHub
