@@ -63,6 +63,7 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position:  'left',
           type:      'docSidebar',
+          to:        '/docs/intro',
         },
         {
           label:     'Blog', 
@@ -84,7 +85,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to:    '/docs/intro',
             },
           ],
         },
@@ -93,7 +94,7 @@ const config: Config = {
           items: [
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href:  'https://twitter.com/docusaurus',
             },
           ],
         },
@@ -102,11 +103,11 @@ const config: Config = {
           items: [
             {
               label: 'Blog',
-              to: '/blog',
+              to:    '/blog',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/cbkadal/241saurus',
+              href:  'https://github.com/cbkadal/241saurus',
             },
           ],
         },
