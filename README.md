@@ -8,7 +8,7 @@
 ## Network Address Translation (NAT) Settings
 
 Docusaurus is using local port 3000. 
-You must redirect/translate the local port 3000 to the host port 5001.
+On your VirtualBox, you must redirect/translate the local port 3000 to the host port 5001.
 
 * VirtualBox Settings
   * Network:Adapter1:
