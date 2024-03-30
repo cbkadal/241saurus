@@ -228,11 +228,11 @@ npm audit fix
 ## More Links
 
 * <https://docusaurus.io/docs/>
-* <https://cbkadal.github.io/231saurus/docs/AP01/02/>
 
 [&#x213C;](#)<br id="idxXXX"><br>
 
 <pre><strong>
+REV03: Sat 30 Mar 2024 21:00
 REV02: Thu 28 Mar 2024 00:00
 REV01: Wed 27 Mar 2024 23:00
 START: Sun 17 Mar 2024 14:00
