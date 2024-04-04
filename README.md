@@ -210,6 +210,8 @@ yarn deploy
 ### Restore From GitHub
 
 ```
+# Inside repo "241saurus/"
+cd Docusaurus/
 npm install
 
 ```
