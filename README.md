@@ -165,18 +165,24 @@ node -v
 npm install -g yarn
 sleep 2
 yarn --version
-# Patch new versions if available.
-# E.g. UPDATE npm 10.5.1
-# npm install -g npm@10.5.1
 
 ```
 
-[&#x213C;](#)<br id="idx010">
+[&#x213C;](#)<br id="idx009a">
 ### Check UPDATE
 
 ```
 # USER privilege.
 npm outdated
+
+```
+
+[&#x213C;](#)<br id="idx009b">
+### Example: Update npm 10.5.1
+
+```
+# USER privilege.
+npm install -g npm@10.5.1
 
 ```
 
