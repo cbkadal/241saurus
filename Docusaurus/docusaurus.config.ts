@@ -113,7 +113,7 @@ const config: Config = {
         },
       ],
       copyright: `Copyright © 2023-2024 BinKadal, Sdn, Bhd. ---
-      REV31: Thu 04 Apr 2024 11:00
+      REV31: Thu 04 Apr 2024 21:00
       `,
       // REV30: Thu 28 Mar 2024 00:00
       // REV29: Wed 27 Mar 2024 23:00
