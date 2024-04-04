@@ -3,7 +3,8 @@
 [&#x213C;](#idxXXX)<br id="idx000">
 ## Table of Content (Toc)
 * [Network Address Translation (NAT) Settings](#idx001)
-* [File .gitignore](#idx002)
+* [GitHub Repo 241saurus](#idx002a)
+  * [File .gitignore](#idx002)
 * [Debian Packages](#idx003)
 * [Removed Packages](#idx004)
 * [Install NVM/node.js](#idx005)
@@ -33,8 +34,16 @@ On your VirtualBox, you must redirect/translate the local port 3000 to the host 
 
 <br><img src="images/VBOX-NAT.jpg"  width="960"><br>
 
+[&#x213C;](#)<br id="idx002a">
+## GitHub Repo 241saurus
+
+* Create GitHub repo "241saurus".
+* Clone repo "241saurus" to your virtual guest
+* Write your MEMO on file "README.md"
+* Update/push "README.md" regularly.
+
 [&#x213C;](#)<br id="idx002">
-## File .gitignore
+### File .gitignore
 
 Don't push the node.js files to GitHub! Copy from the following into your .gitignore file.
 https://raw.githubusercontent.com/cbkadal/241saurus/master/.gitignore
@@ -93,7 +102,7 @@ nvm ls-remote
 ```
 
 You might have previously installed node.js before. For example,
-* the latest LTS version (NEW_NODE_VERSION) is "v20.12.0"
+* the latest LTS version (NEW_NODE_VERSION) is "v20.12.1"
 * the installed version (OLD_NODE_VERSION) is "v20.11.1"
 
 
@@ -104,7 +113,7 @@ Set NEW_NODE_VERSION
 
 ```
 # USER privilege.
-NEW_NODE_VERSION="v20.12.0"
+NEW_NODE_VERSION="v20.12.1"
 nvm install $NEW_NODE_VERSION
 nvm alias default $NEW_NODE_VERSION
 sleep 1
@@ -150,9 +159,9 @@ npx create-docusaurus@latest Docusaurus classic --typescript
 ```
 
 [&#x213C;](#)<br id="idx011">
-## File docusaurus.config.js
+## File docusaurus.config.ts
 
-Goto (cd) folder "Docusaurus/" and edit file "docusaurus.config.js".
+Goto (cd) folder "Docusaurus/" and edit file "docusaurus.config.ts".
 Remember, you are not "cbkadal".
 
 ```
@@ -232,6 +241,7 @@ npm audit fix
 [&#x213C;](#)<br id="idxXXX"><br>
 
 <pre><strong>
+REV04: Thu 04 Apr 2024 11:00
 REV03: Sat 30 Mar 2024 21:00
 REV02: Thu 28 Mar 2024 00:00
 REV01: Wed 27 Mar 2024 23:00
