@@ -38,8 +38,8 @@ On your VirtualBox, you must redirect/translate the local port 3000 to the host 
 ## GitHub Repo 241saurus
 
 * Create GitHub repo "241saurus".
-* Clone repo "241saurus" to your virtual guest
-* Write your MEMO on file "README.md"
+* Clone repo "241saurus" to your virtual guest.
+* Write your memo on file "README.md".
 * Update/push "README.md" regularly.
 
 [&#x213C;](#)<br id="idx002">
@@ -124,7 +124,8 @@ node -v
 [&#x213C;](#)<br id="idx008">
 ### Remove Old Node.js (if exists)
 
-Remove the old "node.js" if it exists.
+You might have installed node.js before (e.g. v20.11.1).
+Remove the old "node.js" if you wish.
 
 ```
 # USER privilege.
