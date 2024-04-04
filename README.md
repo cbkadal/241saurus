@@ -145,8 +145,9 @@ node -v
 npm install -g yarn
 sleep 2
 yarn --version
-# UPDATE 10.5.0
-# npm install -g npm@10.5.0
+# Patch new versions if available.
+# E.g. UPDATE npm 10.5.1
+# npm install -g npm@10.5.1
 
 ```
 
