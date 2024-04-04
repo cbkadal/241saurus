@@ -123,7 +123,7 @@ nvm ls-remote
 
 You might have previously installed node.js before. For example,
 * the latest LTS version (NEW_NODE_VERSION) is "v20.12.1"
-* the installed version (OLD_NODE_VERSION) is "v20.11.1"
+* the current installed version (OLD_NODE_VERSION) is "v20.11.1"
 
 
 [&#x213C;](#)<br id="idx007">
@@ -168,6 +168,15 @@ yarn --version
 # Patch new versions if available.
 # E.g. UPDATE npm 10.5.1
 # npm install -g npm@10.5.1
+
+```
+
+[&#x213C;](#)<br id="idx010">
+### Check UPDATE
+
+```
+# USER privilege.
+npm outdated
 
 ```
 
