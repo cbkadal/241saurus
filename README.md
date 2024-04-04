@@ -34,6 +34,18 @@ On your VirtualBox, you must redirect/translate the local port 3000 to the host 
 
 <br><img src="images/VBOX-NAT.jpg"  width="960"><br>
 
+* UTM M1 Settings
+  * Network Mode: Emulated VLAN
+    * Port Forward: New
+      * Protocol: TCP
+      * Guest Address: 10.0.2.15
+      * Guest Port: 3000
+      * Host Address: 127.0.0.1
+      * Host Port: 5001
+   * SAVE
+
+<br><img src="images/debM1-forward.jpg"  width="960"><br>
+
 [&#x213C;](#)<br id="idx002a">
 ## GitHub Repo 241saurus
 
@@ -255,7 +267,7 @@ npm i @docusaurus/core@latest @docusaurus/plugin-ideal-image@latest @docusaurus/
 [&#x213C;](#)<br id="idxXXX"><br>
 
 <pre><strong>
-REV04: Thu 04 Apr 2024 20:00
+REV04: Thu 04 Apr 2024 21:00
 REV03: Sat 30 Mar 2024 21:00
 REV02: Thu 28 Mar 2024 00:00
 REV01: Wed 27 Mar 2024 23:00
