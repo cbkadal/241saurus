@@ -111,8 +111,8 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/$NVM_RELEASE/install.sh |
 ```
 
 ### Close (exit) and reopen your terminal to start using nvm!
-### One more time: close (exit) and reopen your terminal to start using nvm!
-### Have I told you to close (exit) and reopen your terminal to start using nvm?
+* One more time: close (exit) and reopen your terminal to start using nvm!
+* Have I told you to close (exit) and reopen your terminal to start using nvm?
 
 [&#x213C;](#)<br id="idx006">
 ### Check Node.js Version (user)
