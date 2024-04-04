@@ -69,7 +69,7 @@ copy the following into your .gitignore file:
 https://raw.githubusercontent.com/cbkadal/241saurus/master/.gitignore
 
 [&#x213C;](#)<br id="idx003">
-## Debian Packages
+## Debian Packages (root)
 
 Make sure the following Debian packages are present in your system.
 
@@ -87,7 +87,7 @@ time apt-get install $DEBS -y
 ```
 
 [&#x213C;](#)<br id="idx004">
-## Removed Packages
+## Removed Packages (root)
 Remove the current "yarn" version used by the Jekyll installation. It will be replaced with a newer one.
 That old "yarn" is in the "cmdtest" package.
 
@@ -98,7 +98,7 @@ aptitude purge cmdtest
 ```
 
 [&#x213C;](#)<br id="idx005">
-## Install NVM/node.js
+## Install NVM/node.js (user)
 Docusaurus needs a huge JavaScript runtime environment package called "node.js." 
 Check https://github.com/nvm-sh/nvm/releases for the latest NVM package release. 
 Currently, it is version 0.39.7.
@@ -111,7 +111,7 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/$NVM_RELEASE/install.sh |
 ```
 
 [&#x213C;](#)<br id="idx006">
-### Check Node.js Version
+### Check Node.js Version (user)
 
 Check for the latest LTS (Long-Term Support) version.
 
@@ -127,7 +127,7 @@ You might have previously installed node.js before. For example,
 
 
 [&#x213C;](#)<br id="idx007">
-### Install Node.js
+### Install Node.js (user)
 
 Set NEW_NODE_VERSION
 
@@ -158,7 +158,7 @@ node -v
 ```
 
 [&#x213C;](#)<br id="idx009">
-## Install YARN 
+## Install YARN (user)
 
 ```
 # USER privilege.
@@ -172,7 +172,9 @@ yarn --version
 ```
 
 [&#x213C;](#)<br id="idx010">
-## Install Docusaurus
+## Install Docusaurus (user)
+
+Go to your "241saurus/" (repo) folder.
 
 ```
 # USER privilege.
