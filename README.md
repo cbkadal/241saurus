@@ -63,7 +63,9 @@ On your VirtualBox, you must redirect/translate the local port 3000 to the host 
 [&#x213C;](#)<br id="idx002">
 ### File .gitignore
 
-Don't push the node.js files to GitHub! Copy from the following into your .gitignore file.
+Don't push the node.js files to GitHub! 
+If you missed the .gitignore file option during the repo initialization process, 
+copy the following into your .gitignore file:
 https://raw.githubusercontent.com/cbkadal/241saurus/master/.gitignore
 
 [&#x213C;](#)<br id="idx003">
