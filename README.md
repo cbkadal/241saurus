@@ -13,8 +13,8 @@
   * [Remove Old Node.js](#idx008)
 * [YARN](#idx009)
 * [Install Docusaurus](#idx010)
-* [docusaurus.config.js](#idx011)
 * [Test Docusaurus (local)](#idx012)
+* [docusaurus.config.js](#idx011)
 * [Deploy To GitHub](#idx013)
 * [ETC](#idx014)
 * [More Links](#idx015)
@@ -201,6 +201,20 @@ npx create-docusaurus@latest Docusaurus classic --typescript
 
 ```
 
+[&#x213C;](#)<br id="idx012">
+## Start Docusaurus (local)
+
+Test if Docusaurus shows on port 5001 (host).
+
+```
+# USER privilege.
+cd Docusaurus/
+npm run start -- --host 0.0.0.0
+
+```
+
+
+
 [&#x213C;](#)<br id="idx011">
 ## File docusaurus.config.ts
 
@@ -218,19 +232,6 @@ Remember, you are not "cbkadal".
   trailingSlash: true,              // "true" or "false"
 
 ```
-
-[&#x213C;](#)<br id="idx012">
-## Start Docusaurus (local)
-
-Test if Docusaurus shows on port 5001 (host).
-
-```
-# USER privilege.
-cd Docusaurus/
-npm run start -- --host 0.0.0.0
-
-```
-
 
 [&#x213C;](#)<br id="idx013">
 ## Deploy To GitHub
