@@ -237,6 +237,16 @@ npm audit fix
 
 ```
 
+### UPDATE 3.1.1 → 3.2.0                                          
+                                                                                                                  
+To upgrade Docusaurus packages with the latest version, run the following command:    
+
+```
+npm i @docusaurus/core@latest @docusaurus/plugin-ideal-image@latest @docusaurus/preset-classic@latest      
+           @docusaurus/module-type-aliases@latest @docusaurus/tsconfig@latest @docusaurus/types@latest
+
+```
+
 [&#x213C;](#)<br id="idx015">
 ## More Links
 
