@@ -49,10 +49,16 @@ On your VirtualBox, you must redirect/translate the local port 3000 to the host 
 [&#x213C;](#)<br id="idx002a">
 ## GitHub Repo 241saurus
 
-* Create GitHub repo "241saurus".
-* Clone repo "241saurus" to your virtual guest.
+* Create a new [GitHub](https://github.com/) repo.
+  * New Repository
+  * Repository Name: "241saurus"
+  * Description: "241saurus"
+  * Public
+  * Add README.md
+  * Add .gitignore: NODE
+  * Choose any free LICENSE
 * Write your memo on file "README.md".
-* Update/push "README.md" regularly.
+  * Update/push "README.md" regularly.
 
 [&#x213C;](#)<br id="idx002">
 ### File .gitignore
