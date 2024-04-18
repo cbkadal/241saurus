@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[9506],{3731:s=>{s.exports=JSON.parse('{"label":"WEEK07","permalink":"/241saurus/blog/tags/week-07","allTagsPath":"/241saurus/blog/tags","count":1,"unlisted":false}')}}]);

@@ -14,6 +14,7 @@
         <updated>2024-04-18T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This is our POP QUIZ posting!]]></summary>
         <content type="html"><![CDATA[<p>This is our POP QUIZ posting!</p>
+<p>-- A. Ass and C. BinKadal.</p>
 <p>This writing is hidden below the "truncate" tag.</p>
 <p>This writing is hidden below the "truncate" tag.</p>
 <p>This writing is hidden below the "truncate" tag.</p>
@@ -32,8 +33,8 @@
             <name>Cicak BinKadal</name>
             <uri>https://github.com/cbkadal</uri>
         </author>
-        <category label="hello" term="hello"/>
-        <category label="docusaurus" term="docusaurus"/>
+        <category label="POPQUIZ" term="POPQUIZ"/>
+        <category label="WEEK07" term="WEEK07"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
