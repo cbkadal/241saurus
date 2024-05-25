@@ -57,6 +57,13 @@ On your VirtualBox, you must redirect/translate the local port 3000 to the host 
   * Add README.md
   * Add .gitignore: NODE
   * Choose any free LICENSE
+* CLONE Your GitHub Repo. E.g.
+
+```
+git clone git@github.com:cbkadal/241saurus.git
+
+```
+* REMEMBER: You are not **CBKADAL**!
 * Write your memo on file "README.md".
   * Update/push "README.md" regularly.
 
