@@ -133,7 +133,7 @@ nvm ls-remote
 ```
 
 You might have previously installed node.js before. For example,
-* the latest LTS version (NEW_NODE_VERSION) is "v20.12.1"
+* the latest LTS version (NEW_NODE_VERSION) is "v20.13.1"
 * the current installed version (OLD_NODE_VERSION) is "v20.11.1"
 
 
@@ -144,7 +144,7 @@ Set NEW_NODE_VERSION
 
 ```
 # USER privilege.
-NEW_NODE_VERSION="v20.12.1"
+NEW_NODE_VERSION="v20.13.1"
 nvm install $NEW_NODE_VERSION
 nvm alias default $NEW_NODE_VERSION
 sleep 1
@@ -189,11 +189,11 @@ npm outdated
 ```
 
 [&#x213C;](#)<br id="idx009b">
-### Example: Update npm 10.5.1
+### Example: Update npm 10.8.0
 
 ```
 # USER privilege.
-npm install -g npm@10.5.1
+npm install -g npm@10.8.0
 
 ```
 
