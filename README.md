@@ -144,7 +144,7 @@ Set NEW_NODE_VERSION
 
 ```
 # USER privilege.
-NEW_NODE_VERSION="v20.13.1"
+NEW_NODE_VERSION="v20.18.0"
 nvm install $NEW_NODE_VERSION
 nvm alias default $NEW_NODE_VERSION
 sleep 1
