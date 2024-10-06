@@ -112,7 +112,7 @@ Currently, it is version 0.39.7.
 
 ```
 # USER privilege.
-NVM_RELEASE="v0.39.7"
+NVM_RELEASE="v0.40.1"
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/$NVM_RELEASE/install.sh | bash
 
 ```
